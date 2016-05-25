@@ -1,0 +1,13 @@
+The first time you want to grab remote git folder/file to your local machine, do:
+git clone https://github.com/djo155/djo_scripts.git
+-or to use different userID, say with bitbucket-
+git clone https://djo155@bitbucket.org/etkinlab/analysis_pipeline
+
+Then if you just want to grab the remote (github) updates, cd into the dowloaded git directory locally (e.g. ‘djo_scripts’) and do:
+git pull
+
+Structure and Terms:
+master branch (main code) ; can also take from a particular commit and start a parallel branch (try something that you may wish to discard later or use for different purpose?).  pull request = another user fixes some problems and if you agree, her code will update yours in the branch you have going. Pull/Push is just snapshotting your own code.  I can fork your repo = fully new repo in MY github account started by pulling your code. Clone a repo = pull from github.
+
+Tips:
+For working on local computer, GitHub desktop (download from web) offers a nice interface through which you can pull/push between your local repo folder and github.
